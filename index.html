@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouToube Music</title>
+    <link rel="stylesheet" href="youtubemusic.css">
+    <link rel="icon" href="youtube-music-icon.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="body"  >
+    <div class="header ">
+        <div class="left-header">
+            <div class="menu-icon-div hover">
+                <img class="menu-icon" src="icons8-hamburger-menu-30.png" alt="">
+
+            </div>
+            
+        </div>
+        <div class="middle-header">
+            <img src="on_platform_logo_dark.svg" alt="">
+            <button class="search-button">
+                <img class="search-icon" src="icons8-search-30.png" alt="">
+            </button>
+            <input class="search-bar" type="text" placeholder="Search,song,album,artists,podcasts">
+
+        </div>
+        <div class="right-header"> 
+            
+            <img class="right-icon1" src="icons8-chromecast-cast-button-32.png" alt="cast">
+            <span class="tooltip tip-posi">Connect to a device</span>
+            <img class="right-icon2"  src="2channels_profile.jpg" alt="">
+
+        </div>
+
+    </div>
+    <div  class="left-bar ">
+        <div class="left-bar-icon hover">
+            <img src="icons8-home-48.png" alt="">
+            <p>Home</p>
+
+        </div>
+        <div class="left-bar-icon hover">
+            <img src="icons8-compass-48.png" alt="">
+            <p>Explore</p>
+        </div>
+        <div class="left-bar-icon hover"> 
+            <img src="icons8-music-library-64.png" alt="">
+            <p>Library</p>
+        </div>
+        <div class="left-bar-icon hover">
+            <img src="icons8-youtube-music-40.png" alt="">
+            <p>Upgrade</p>
+
+        </div>
+
+    </div>
+    <div class="top-panel col-12">
+        <div class="panel-text-container ">
+            <a class="panel-link hover" href=""> Romance</a>
+        <a class="panel-link hover" href="">Relax</a>
+        <a class="panel-link hover" href="#">Podcasts</a>
+        <a class="panel-link hover" href="#">Feel good</a>
+        <a class="panel-link hover" href="#">Energise</a>
+        <a class="panel-link hover" href="#">Commute</a>
+        <a class="panel-link hover" href="#"> Party</a>
+        <a class="panel-link hover" href="#"> Work out</a>
+        <a class="panel-link hover" href="#"> Sad</a>
+        <a class="panel-link hover" href="#"> Focus</a>
+        <a class="panel-link hover" href="#">Sleep</a>
+
+        </div>
+        
+
+    </div>
+    <div class="main-body ">
+        <div class="main-div col-12 ">
+            <div class="category-name col-sm-6 ">
+                <p>Rcommended music videos</p>
+                <button  class="playall hover ">
+                Play all
+                </button>
+                <button class="for-back-word ">
+                    <img class="back-word " src="icons8-back-40.png" alt="back">
+                    <span class="back-tooltip" id="previousbtn">Previous</span>
+
+                </button>
+                <button class="for-back-word">
+                    <img class="for-word"  src="icons8-forward-40.png" alt="">
+                    <span class="next-tooltip" id="nextbtn">Next</span>
+                </button>
+
+            </div>
+            <div id="photo" class="song-row col-12">
+                <div class="templatediv">
+                    <div    class="song-img-div">
+                        <img class="song-img" src="hq720(1).jpg" alt="">
+                        <img  class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Gustavo Santaoalla-Babel (Emin Nilsen & Emre Kabak)|PEAKY BLINDERS</p>
+                    <a class="singer" href="">HouseMusicHD &middot; 12M views</a>
+                    
+                </div>
+                <div class="templatediv ">
+                    <div class="song-img-div ">
+                        <img class="song-img" src="hq720(2).jpg" alt="">
+                        <img class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name"> From The D 2 The LBC</p>
+                    <a class="singer" href=""> Eminem & Snoop Dogg &middot; 89M views</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div">
+                        <img class="song-img" src="hq720(3).jpg" alt="">
+                        <img class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">"My Mother Told Me" x "Heimdallr" Mash-up ("Vikings" music video)</p>
+                    <a class="singer" href=""> WiciuSJ &middot; 28M views</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div">
+                        <img class="song-img" src="hq720(4).jpg" alt="">
+                        <img class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Save Your Tears (Official Music Video)</p>
+                    <a class="singer" href="">The Weeknd &middot; 1.3B views</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div">
+                        <img class="song-img" src="hq720(5).jpg" alt="">
+                        <img class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img"  src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Pirates of the Caribbean</p>
+                    <a class="singer" href="">2CELLOS &middot; 89M views</a>
+                </div>
+                
+                <div class="templatediv">
+                    <div class="song-img-div">
+                        <img class="song-img " src="hq720(7).jpg" alt="">
+                        <img class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Wellerman (Sea Shanty)</p>
+                    <a class="singer" href="">Nathan Evans &middot; 304M views</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div">
+                        <img class="song-img" src="hq720(8).jpg" alt="">
+                        <img class="play-button" src="icons8-play-button-50.png" alt="">
+                        <div class="three-dot"><img class="three-dot-img" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">A Long Way Down</p>
+                    <a class="singer" href="">Le Castle Vania &middot; 774K views</a>
+                </div>
+
+            </div>
+
+        </div>
+        
+            <div class="main-div" >
+                <div class="category-name">
+                    <p>New releases</p>
+                    <button class="playall hover" style="margin-left:52rem ;">
+                    More
+                    </button>
+                    <button class="for-back-word">
+                        <img class="back-word" src="icons8-back-40.png" alt="back">
+                        <span class="back-tooltip">Previous</span>
+                    </button>
+                    <button class="for-back-word">
+                        <img class="for-word"  src="icons8-forward-40.png" alt="">
+                        <span class="next-tooltip">Next</span>
+                    </button>
+    
+                </div>
+                <div id="photo" class="song-row2 col-12 ">
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2" src="unnamed(4).jpg" alt="">
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                            <div class="three-dot"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Chaaver (Original Motion Picture Soundtrack)</p>
+                        <a class="singer" href="">EP &middot; Justin Varghese & Hareesh Mohanan</a>
+                        
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2" src="unnamed(3).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Leo (Telugu) (Original Motion Picture Soundtrack)</p>
+                        <a class="singer" href="">Album &middot; Anirudh Ravichander</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2" src="unnamed(28).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Mazhavillile (From "Falimy")</p>
+                        <a class="singer" href=""> Single &middot; Vishnu Vijay & Mu.Ri</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2" src="unnamed(29).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">RDX</p>
+                        <a class="singer" href="">Album &middot; Sam C.S.</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2" src="unnamed(30).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">1989 (Taylor's Version)</p>
+                        <a class="singer" href="">Album &middot; Taylor Swift</a>
+                    </div>
+                    
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2 " src="unnamed(31).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Animal</p>
+                        <a class="singer" href="">EP &middot; Jam8, Shreyas Puranik, Harshavardhan Rameshwar & Manan Bhardwaj</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2" src="unnamed(32).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Apurva (Original Motion Picture Soundtrack)</p>
+                        <a class="singer" href="">Single &middot; Vishal Mishra</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2 " src="unnamed(5).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Jawaab </p>
+                        <a class="singer" href=""> Single &middot; Badshah</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2 " src="unnamed(34).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">How I Love</p>
+                        <a class="singer" href="">EP &middot; Riar Saab</a>
+                    </div>
+                    <div class="templatediv">
+                        <div class="song-img-div2">
+                            <img class="song-img2 " src="unnamed(35).jpg" alt="">
+                            <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                            <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        </div>
+                        
+                        <p class="song-name">Houdini</p>
+                        <a class="singer" href="">Single &middot; Dua Lipa</a>
+                    </div>
+    
+                </div>
+    
+            </div>
+
+        
+        <div class="main-div">
+            <div class="category-name  ">
+                <p>New releases</p>
+                <button class="playall hover" style="margin-left:52rem ;">
+                More
+                </button>
+                <button class="for-back-word">
+                    <img class="back-word" src="icons8-back-40.png" alt="back">
+
+                </button>
+                <button class="for-back-word">
+                    <img class="for-word"  src="icons8-forward-40.png" alt="">
+
+                </button>
+
+            </div>
+            <div  class="song-row2 col-12 ">
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2" src="unnamed(4).jpg" alt="">
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                        <div class="three-dot"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Chaaver (Original Motion Picture Soundtrack)</p>
+                    <a class="singer" href="">EP &middot; Justin Varghese & Hareesh Mohanan</a>
+                    
+                </div>
+                <div class="templatediv">`
+                    <div class="song-img-div2">
+                        <img class="song-img2" src="unnamed(3).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Leo (Telugu) (Original Motion Picture Soundtrack)</p>
+                    <a class="singer" href="">Album &middot; Anirudh Ravichander</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2" src="unnamed(28).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Mazhavillile (From "Falimy")</p>
+                    <a class="singer" href=""> Single &middot; Vishnu Vijay & Mu.Ri</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2" src="unnamed(29).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">RDX</p>
+                    <a class="singer" href="">Album &middot; Sam C.S.</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2" src="unnamed(30).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">1989 (Taylor's Version)</p>
+                    <a class="singer" href="">Album &middot; Taylor Swift</a>
+                </div>
+                
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2 " src="unnamed(31).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Animal</p>
+                    <a class="singer" href="">EP &middot; Jam8, Shreyas Puranik, Harshavardhan Rameshwar & Manan Bhardwaj</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2" src="unnamed(32).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Apurva (Original Motion Picture Soundtrack)</p>
+                    <a class="singer" href="">Single &middot; Vishal Mishra</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2 " src="unnamed(5).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Jawaab </p>
+                    <a class="singer" href=""> Single &middot; Badshah</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2 " src="unnamed(34).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">How I Love</p>
+                    <a class="singer" href="">EP &middot; Riar Saab</a>
+                </div>
+                <div class="templatediv">
+                    <div class="song-img-div2">
+                        <img class="song-img2 " src="unnamed(35).jpg" alt="">
+                        <div class="three-dot2"><img class="three-dot-img2" src="icons8-menu-32.png" alt=""></div>
+                        <div class="play-btn"><img class="play-button2" src="icons8-play-button-50.png" alt=""></div>
+                    </div>
+                    
+                    <p class="song-name">Houdini</p>
+                    <a class="singer" href="">Single &middot; Dua Lipa</a>
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+            
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="youtubemusic.js"></script>
+    
+</body>
+</html>

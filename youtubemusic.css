@@ -1,0 +1,448 @@
+.body{
+    background-color:rgb(0, 0, 0);
+    margin:0px;
+    height: 1500px;
+    font-family: Roboto, "Noto Naskh Arabic UI", Arial;
+    padding-left: 0.2rem;
+    
+}
+.header{
+    background:rgb(0, 0, 0);
+    height: 4.4rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index:200 ;
+
+}
+.left-header{
+    height: 4em;
+    width: 4.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-icon{
+    height:20px;
+    width: 20px;
+
+}
+.menu-icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:33px;
+    width: 33px;
+    border-radius: 30px;
+}
+.hover:hover{
+    background-color:rgba(255,255,255,.2);
+    
+
+}
+.middle-header{
+    height: 4em;
+    width: 79.1em;
+    display: flex;
+    align-items: center;
+}
+
+.search-button{
+   width: 50px;
+   height: 43px;
+    margin-left: 16px;
+    background: #403737;
+    border: solid  1px rgb(87, 80, 80);
+    background:rgba(255,255,255,.1);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-right: transparent;
+    
+}
+
+.search-icon{
+    height:1.5em;
+}
+.search-bar{
+    width: 33%;
+    height: 67%;
+   font-size:17px;
+   font-weight: 500;
+   border-top-right-radius:10px;
+   border-bottom-right-radius:10px;
+   border: solid  1px rgb(87, 80, 80);
+   background:rgba(255,255,255,.1);
+   border-left:transparent;
+   color: white;
+   outline:rgb(87, 80, 80);
+}
+.search-bar:focus{
+    border: solid  1px rgb(87, 80, 80);
+
+}
+
+.right-header{
+    height: 4em;
+    width: 11em;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.tooltip{
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    font-size: 12px;
+    background-color:white ;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: -19px;
+    left:-15px;
+}
+.right-icon1:hover + .tooltip{
+  opacity: 1 ;
+
+}
+.right-icon1{
+    height: 30px;
+    margin-left:10px ;
+    border-radius: 29px;
+  
+    
+}
+.right-icon2{
+    height: 30px;
+    margin-left :12px;
+    border-radius: 29px;
+}
+.left-bar{
+    width: 80px;
+    background-color:black;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    bottom:0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+   
+
+}
+.left-bar-icon{
+    height: 69px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 8px;
+    
+}
+.left-bar-icon img {
+    height: 44px;
+    padding-top: 20px;
+    
+}
+.left-bar-icon p {
+    margin-top: 1em;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+.top-panel{
+   
+    height: 5.3em;
+    width: 87.6em;
+   margin-left:70px;
+   margin-top: 4.9%;
+    background-color: rgb(0, 0, 0);
+
+}
+.panel-text-container{
+    height: 5em;
+    width: 8em;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: flex-end;
+    margin-left: 5em;
+    
+
+}
+
+.panel-link{
+    margin-left: 11%;
+    margin-bottom: 0.9%;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background:rgba(255,255,255,.1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border:none solid rgba(255,255,255);
+  
+}
+.main-body{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 5%;
+    display:flex;
+    flex-direction: column;
+    padding-left: 6rem;
+
+
+}
+
+
+.main-div{
+    width: 99%;
+    height: 29%;
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+.category-name{
+    background-color:rgb(4, 4, 4);
+    width: 78rem;
+    height: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    margin-top: 2.2rem;
+    
+}
+.category-name p{
+    padding-top: 1pxp;
+   
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+}
+.playall{
+    height: 36px;
+    width: 82px;
+    margin-left: 37.2rem;
+    font-size: 0.87rem;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #fff;
+    background-color:transparent;
+    border: 1px solid rgba(255,255,255,.2);
+
+}
+.for-back-word{
+    margin-left: 20px;
+    width: 39px;
+    height: 39px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 20px;
+    background-color:transparent;
+    
+}
+.for-back-word:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.for-word{
+    height: 15px;
+    padding-top: 5px;
+}
+.back-tooltip{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: absolute;
+    left: -4rem;
+    visibility: hidden;
+}
+.next-tooltip{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: absolute;
+    right: -3rem;
+    visibility: hidden;
+}
+.for-word:hover + .next-tooltip{
+    visibility: visible;
+}
+.back-word:hover + .back-tooltip{
+    visibility: visible;
+}
+.back-word{
+    height: 15px;
+    padding-top: 5px;
+    padding-right: 3px;
+}
+.song-row{
+    width: 78rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    flex: 1;
+   min-width: 38rem;
+}
+.song-row::-webkit-scrollbar{
+    display: none;
+}
+.song-img-div{
+     width: 335px;
+     object-fit: cover;
+     object-position: top;
+     margin-right:1.2rem ;
+     margin-top: 0.6rem;
+     margin-bottom: 0.7rem;
+     display: inline-block;
+     position: relative;
+}
+
+.play-button{
+    width: 2.5rem;
+    position: absolute;
+    left: 8.9rem;
+    top: 4rem;
+
+}
+.three-dot-img {
+    width:19px;
+    visibility: hidden;
+   
+
+}
+.three-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    top: 10px;
+    visibility: hidden;
+  
+    
+
+}
+.three-dot-img:hover.three-dot{
+    visibility: visible;
+}
+.song-img{
+    width: 335px;
+    opacity:1;
+}
+.song-img-div:hover .song-img {
+    opacity:0.6;
+}
+.song-img-div:hover .three-dot-img{
+    visibility:visible;
+}
+.song-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin: 0px;
+    margin-bottom: 0.4rem;
+
+}
+.singer{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffffb3;
+    text-decoration: none;
+}
+.song-row2{
+    width: 78rem;
+    display: flex;
+    flex-direction: row;
+   
+    overflow-x:scroll;
+}
+.song-row2::-webkit-scrollbar{
+    display: none;
+}
+.song-img-div2{
+    width: 189px;
+    height: 189px;
+    object-position: top;
+    margin-right:1.4rem ;
+    margin-top: 0.6rem;
+    margin-bottom: 0.7rem;
+    position: relative;
+    opacity:1;
+}
+.song-img2{
+    width: 189px;
+}
+.song-img-div2:hover{
+    opacity: 0.7;
+
+}
+.song-img-div2:hover .three-dot-img2{
+    visibility: visible;
+}
+.song-img-div2:hover .play-button2{
+    visibility:visible;
+}
+
+.play-button2{
+    width: 1.2rem;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    visibility: hidden;
+   
+}
+.play-btn{
+    position: absolute;
+    right: 1.3rem;
+    bottom: 1.4rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color:rgba(66, 63, 63,0.8) ;
+    border-radius: 20px;
+    visibility: hidden;
+
+}
+.three-dot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 1rem;
+    top: 1rem;
+    
+}
+.three-dot-img2{
+    width: 16px;
+    visibility: hidden;
+
+}
